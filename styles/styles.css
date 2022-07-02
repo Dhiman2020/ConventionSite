@@ -1,0 +1,277 @@
+p {
+    font-size: 20px;
+    color: #000
+}
+
+*::-webkit-input-placeholder {
+    color: #b49383 !important
+}
+
+*:-ms-input-placeholder {
+    color: #b49383 !important
+}
+
+*::placeholder {
+    color: #b49383 !important
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: #000
+}
+
+.logo {
+    max-width: 175px !important;
+    transform: .3s
+}
+
+.logo img {
+    width: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: .3s
+}
+
+.scrolled .logo {
+    max-width: 100px
+}
+
+.footer_logo_title img {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: .3s
+}
+
+.footer h5,
+.footer p {
+    color: #fff
+}
+
+.footer li {
+    margin-left: 10px
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 19px
+}
+
+.footer .h3 {
+    color: #fff !important
+}
+
+.social-icon a {
+    margin: 10px;
+    font-size: 40px;
+    color: #b49383 !important
+}
+
+.text-green {
+    color: #5cdb5c
+}
+
+.text-gold {
+    color: #b49383
+}
+
+article {
+    color: #000;
+    font-size: 20px
+}
+
+input,
+select {
+    padding: 5px 7px !important;
+    color: #956d3b;
+    border: 2px solid #956d3b;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block
+}
+
+.floating-box-gold {
+    position: relative;
+    top: auto;
+    box-shadow: rgba(0, 0, 0, .24) 0 2px 30px 0;
+    background-origin: padding-box;
+    border: solid 2px #b49383;
+    padding-top: 25px;
+    padding-bottom: 39px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    background-color: #fff
+}
+
+.floating-box-gold-no-pad {
+    position: relative;
+    top: auto;
+    box-shadow: rgba(0, 0, 0, .24) 0 2px 30px 0;
+    background-origin: padding-box;
+    border: solid 2px #b49383;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    background-color: #fff
+}
+
+.home_title p {
+    color: #fff !important;
+    font-size: 20px !important;
+    text-align: center;
+    line-height: 30px;
+    bottom: 20px
+}
+
+.banner-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60%
+}
+
+.only-mobile {
+    display: none
+}
+
+.floating-phone {
+    position: fixed;
+    font-size: 40px;
+    border-radius: 50%;
+    z-index: 1000;
+    right: 20px;
+    bottom: 20px;
+    transform: rotate(90deg)
+}
+
+.floating-phone a {
+    text-decoration: none;
+    color: #24c424 !important
+}
+
+a.reservations_phone,
+a.menu_reservations_phone {
+    text-decoration: none;
+    color: #fff !important
+}
+
+a.reservations_phone:hover,
+a.menu_reservations_phone:hover {
+    text-decoration: none;
+    color: #fff !important
+}
+
+.menu .dropdown-menu {
+    position: unset !important;
+    margin-top: -60px;
+    margin-bottom: 50px;
+    border: none;
+    background: 0 0;
+    z-index: 0 !important;
+    transform: unset;
+    text-align: center;
+    transition: .5s
+}
+
+.menu .dropdown-menu a {
+    color: rgba(255, 255, 255, .5) !important
+}
+
+.menu .dropdown-menu a:hover {
+    color: #fff !important;
+    background: unset
+}
+
+.footer-info {
+    font-size: 15px !important
+}
+
+@media(max-width:990px) {
+    .footer-info {
+        font-size: 15px !important;
+        text-align: center
+    }
+
+    .only-mobile {
+        display: block
+    }
+
+    .banner {
+        height: 100% !important
+    }
+
+    .logo {
+        max-width: 100px !important
+    }
+
+    .hide-mobile {
+        display: none
+    }
+
+    .chefs_text_row {
+        margin-top: -100px
+    }
+
+    iframe {
+        height: 250px !important
+    }
+
+    .video_section {
+        margin-top: -250px;
+        height: 100%;
+        padding: unset !important
+    }
+}
+
+.testimonials {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 35px
+}
+
+.testimonials .section_title {
+    margin-top: 6px
+}
+
+.testimonials_row {
+    margin-top: 28px
+}
+
+.quote {
+    width: 25px;
+    height: 17px
+}
+
+.quote img {
+    max-width: 100%
+}
+
+.test_text {
+    margin-top: 23px
+}
+
+.test_text p {
+    font-size: 18px !important
+}
+
+.test_info {
+    font-size: 18px;
+    color: #232323;
+    margin-top: 43px
+}
+
+.test_info span {
+    font-size: 16px;
+    color: #636363
+}
